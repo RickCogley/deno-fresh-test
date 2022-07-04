@@ -21,7 +21,7 @@ export async function handler(
   return resp;
 }
 
-const auth = req.headers.get("authorization");
+/* const auth = req.headers.get("authorization");
   if (!auth) {
     return new Response(null, {
       status: 401,
@@ -44,4 +44,4 @@ const auth = req.headers.get("authorization");
         status: 403,
       });
     }
-  }
+  } */
